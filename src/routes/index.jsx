@@ -5,7 +5,6 @@ import About from '../page/about'
 import Contact from '../page/contact'
 import Service from '../page/service'
 import Header from '../components/header'
-// import Userinfo from '../page/about/user-info'
 import MainLoyaut from '../components/header/main-loyaut'
 const Router = () => {
    return (
@@ -15,7 +14,6 @@ const Router = () => {
             <Route path='/' element={<MainLoyaut />}>
                <Route index path='/' element={<Home />} />
                <Route path='/about' element={<About />} />
-               {/* <Route path='/about/:id' element={<Userinfo />} /> */}
                <Route path='/contact' element={<Contact />} />
                <Route path='/service' element={<Service />} />
             </Route>

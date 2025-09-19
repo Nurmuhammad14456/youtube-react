@@ -66,7 +66,6 @@ const Service = () => {
                </div>
                <hr />
 
-               {/* Channel info */}
                <div className="mt-5">
                   <div className="flex justify-between items-center mb-5">
                      <div className="flex items-center gap-5">
@@ -99,7 +98,6 @@ const Service = () => {
                   </div>
                   <hr />
 
-                  {/* Comment qismi */}
                   <div className="flex gap-5 mt-5">
                      <p>286 Comments</p>
                      <p>Sort by</p>
@@ -116,7 +114,6 @@ const Service = () => {
                      </p>
                   </div>
 
-                  {/* Comment 1 */}
                   <div className="flex items-center gap-5 mt-[40px]">
                      <img
                         className="w-[40px] h-[40px] rounded-full"
@@ -140,7 +137,6 @@ const Service = () => {
                      <button className="text-[19px] text-gray-400">Reply</button>
                   </div>
 
-                  {/* Comment 2 */}
                   <div className="flex items-center gap-5 mt-[40px]">
                      <img
                         className="w-[40px] h-[40px] rounded-full"
@@ -158,8 +154,6 @@ const Service = () => {
                </div>
             </div>
 
-            {/* Kichik product list qismi */}
-            {/* kichik div */}
             <div className="w-[30%] p-4 max-h-[90vh] overflow-y-auto no-scrollbar">
                <div className="flex gap-5 mb-4">
                   <button className="bg-white text-black w-[80px] h-[32px] rounded-2xl hover:bg-[#303030] hover:text-white">
@@ -176,14 +170,12 @@ const Service = () => {
                      key={item.id}
                      className="bg-[#202020] rounded-lg overflow-hidden shadow-md flex items-start mb-3"
                   >
-                     {/* Rasm chap tomonda */}
                      <img
                         src={item.thumbnail}
                         alt={item.title}
                         className="w-[150px] h-[100px] object-cover"
                      />
 
-                     {/* Matn o'ng tomonda */}
                      <div className="p-3 text-white flex-1">
                         <h2 className="font-semibold text-sm line-clamp-2">{item.title}</h2>
                         <p className="text-gray-400 text-xs mt-1">${item.price}</p>

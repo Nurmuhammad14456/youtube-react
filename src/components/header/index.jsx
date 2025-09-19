@@ -34,7 +34,6 @@ const Header = () => {
                </button>
             </div>
 
-            {/* 3-div: Icons */}
             <div className="flex items-center gap-4 text-gray-700 text-xl">
                <FaVideo className="cursor-pointer hover:text-black transition" />
                <FaBell className="cursor-pointer hover:text-black transition" />
